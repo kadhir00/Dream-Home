@@ -1,0 +1,40 @@
+Project : Static Website
+
+
+header:
+    
+       Home about pricing support contact signup
+
+
+services provided
+
+
+why choose us 
+
+
+about the work
+
+
+reviews from customers
+
+
+book an appointment
+
+
+
+
+footer:
+        abouyt the company history ( optional)
+        email newsletter sub
+        privacy policy terms and conditions
+        basic contact details
+
+
+
+
+
+
+
+
+scroll behaviour:smooth;
+        

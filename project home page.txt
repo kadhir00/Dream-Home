@@ -1,0 +1,155 @@
+home page html 
+
+
+<div class="container">
+        <div class="header">
+        <nav>
+        
+            <img src="./logo drm hme.jpg"/>
+            <label for="icon">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <input type="checkbox" id="icon">
+          
+           <div class="content">
+              <a>Home</a>
+              <a>About</a>
+              <a>Services</a>   
+              <a>Contact</a>
+           </div>
+        </nav>
+    </div>
+      
+  <!-- content in the primary display - -->
+        <div class="centercontent">
+            <h1>COME HOME HAPPY</h1>
+            <button ><a href="./booking.html" target="blank">Book Appointment </a></button>
+            <p>Let us connect you with a cleaner you'll love at a click of a button</p>
+            <a href="#why">Why Choose Us?</a>
+           
+        </div>
+    </div>
+
+
+home page css
+
+
+.container{
+    height:auto;
+    width:100%;
+}
+
+.centercontent{
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Mukta', sans-serif;
+}
+
+.centercontent h1,p{
+    position: relative;
+   color:white;
+   text-shadow: 2px 2px 5px black;
+   font-family: 'Mukta', sans-serif;
+}
+.centercontent h1{
+    font-size:70px;
+    font-family: 'Mukta', sans-serif;
+}
+.centercontent a{
+    background-color:#cd18184f;
+    padding:10px;
+    border-radius:10px;
+    text-decoration: none;
+    color:white;
+    font-size:24px;
+    margin:10px;
+    font-family: 'Mukta', sans-serif;
+    font-weight:bold;
+}
+.centercontent a:hover{
+    background-color:#cd1818;
+    text-shadow:0 0 5px black;
+}
+.centercontent p{
+    font-weight: bold;
+    font-size:40px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.centercontent button{
+    background-color:#CD1818;
+    color:#ffffff;
+    padding:15px 40px;
+    border:none;
+    border-radius:6px;
+    margin:20px;
+}
+.centercontent button:hover{
+    background-color: #a00f0f;
+}
+.centercontent button a{
+    text-decoration: none;
+    color:white;
+}
+.centercontent button a:hover{
+    background-color: #a00f0f;
+    
+} 
+/* Header  */
+.header{
+  position: fixed;
+    width:100%;
+    background-color:#cd1818;
+}
+
+.header img{
+    height:100px;
+    width:100px;
+}
+
+.header nav{
+    display:flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding:20px;
+    color:black;
+}
+.content{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    padding:5px 10px ;
+    border-radius:5px;
+    margin-right:10px;
+}
+nav  a:hover {
+    cursor:pointer;
+    color:white;
+    text-shadow: 0 0 5px rgb(238, 181, 49);
+}
+span{
+    width:100%;
+    
+}
+.bar-icon{
+    display:none;
+}
+
+input:checked ~ .content{
+    
+    right:0;
+}
+input{
+    display:none;
+}
+nav i {
+    display:none !important;
+} 

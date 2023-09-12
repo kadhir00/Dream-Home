@@ -1,0 +1,103 @@
+html code for homepage
+
+
+    <!-- Primary view Screen -->
+    <div class="container">
+        <div class="header"> 
+            <nav>
+                <span><img src="./logo_drm_hme-removebg-preview.png" class="logo"><h2> Dream Home <br/>Cleaning & Facility Services</h2></span>
+            <ul class="nav-links">
+                <li><a href="">Home</a></li> 
+                <li><a href="">Help</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </nav>
+        </div>
+<!--  content in the primary display --->
+        <div class="centercontent">
+            
+            <h1>COME HOME HAPPY</h1>
+            <p>Let us connect you with a cleaner you'll love at a click of a button</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+css code for primary home page
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* home page container */
+.container{
+    height:100vh;
+    width:100%;
+    background-image:url(./vacuum-cleaner-268179.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.container>background-image{
+    opacity:0.5;
+}   
+.centercontent{
+    
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Mukta', sans-serif;
+
+}
+.centercontent img{
+    height:200px;
+    width:200px;
+    position: relative;
+    top:-50px;
+    
+}
+.centercontent h1,p{
+    position: relative;
+   color:white;
+   
+   text-shadow: 2px 2px 5px black;
+   
+}
+.centercontent h1{
+    font-size:70px;
+    font-family: 'Bebas Neue', sans-serif;
+    
+    
+}
+.centercontent p{
+    font-weight: bold;
+    font-size:40px;
+
+}
+
